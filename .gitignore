@@ -1,0 +1,15 @@
+# Binary files
+*.asar
+
+# Extracted app files
+extracted/
+extracted-fixed/
+
+# Backup files
+backup/
+
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules/
