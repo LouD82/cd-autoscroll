@@ -21,7 +21,7 @@ This project is organized into separate folders for each implementation attempt:
 - **attempt-3-minimal-js-modification/**: Minimal JS modification approach (crashed)
 - **attempt-4-delayed-execution/**: Ultra-minimal delayed execution approach (crashed)
 - **attempt-5-trivial-modification/**: Simple comment-only modification to test ASAR integrity (crashed)
-- **approach-external-applescript/**: External AppleScript solution that doesn't modify the application (next step)
+- **attempt-6-external-applescript/**: External AppleScript solution that doesn't modify the application (next step)
 
 Each attempt folder is self-contained with all necessary files for that specific approach, including:
 - Installation scripts 
@@ -71,7 +71,7 @@ This consistency strongly suggests that Claude Desktop has integrity protection 
 
 Given that any modification to the app.asar file causes crashes, our next implementation will use an external approach that doesn't modify any Claude Desktop files:
 
-### AppleScript Solution (approach-external-applescript)
+### AppleScript Solution (attempt-6-external-applescript)
 
 This approach will:
 1. Use AppleScript to detect the Claude Desktop window
